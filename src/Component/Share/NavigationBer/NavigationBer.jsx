@@ -31,7 +31,8 @@ const NavigationBer = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-outline btn-warning">Appointment</button>
+                <button className="btn btn-outline btn-primary ms-4"> <Link to="/login">Login</Link></button>
+                <button className="btn btn-outline btn-warning ms-4">Appointment</button>
             </div>
         </div>
     );
